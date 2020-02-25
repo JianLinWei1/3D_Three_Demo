@@ -1,0 +1,4 @@
+npm init
+npm i express --save
+
+node server.js

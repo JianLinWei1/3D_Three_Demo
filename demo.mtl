@@ -1,0 +1,544 @@
+# Blender MTL File: 'demo.blend'
+# Material Count: 52
+
+newmtl DB2X2_L01
+Ns 15.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\31972\\Desktop\\15od5xhlv2jc-Tree_02\\Tree 02\\DB2X2_L01.png
+
+newmtl DB2X2_L01.001
+Ns 15.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\31972\\Desktop\\15od5xhlv2jc-Tree_02\\Tree 02\\DB2X2_L01.png
+
+newmtl DB2X2_L01.002
+Ns 15.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\31972\\Desktop\\15od5xhlv2jc-Tree_02\\Tree 02\\DB2X2_L01.png
+
+newmtl DB2X2_L01.003
+Ns 15.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\31972\\Desktop\\15od5xhlv2jc-Tree_02\\Tree 02\\DB2X2_L01.png
+
+newmtl Material.003
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Trank_bark
+Ns 15.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\31972\\Desktop\\15od5xhlv2jc-Tree_02\\Tree 02\\bark_0004.jpg
+
+newmtl Trank_bark.001
+Ns 15.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\31972\\Desktop\\15od5xhlv2jc-Tree_02\\Tree 02\\bark_0004.jpg
+
+newmtl Trank_bark.002
+Ns 15.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\31972\\Desktop\\15od5xhlv2jc-Tree_02\\Tree 02\\bark_0004.jpg
+
+newmtl Trank_bark.003
+Ns 15.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\31972\\Desktop\\15od5xhlv2jc-Tree_02\\Tree 02\\bark_0004.jpg
+
+newmtl White.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Wrought_Iron_fence_with_brick_1
+Ns 50.000007
+Ka 1.000000 1.000000 1.000000
+Kd 0.156900 0.156900 0.156900
+Ks 0.900000 0.900000 0.900000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Wrought_Iron_fence_with_brick_1.001
+Ns 50.000007
+Ka 1.000000 1.000000 1.000000
+Kd 0.156900 0.156900 0.156900
+Ks 0.900000 0.900000 0.900000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Wrought_Iron_fence_with_brick_1.002
+Ns 50.000007
+Ka 1.000000 1.000000 1.000000
+Kd 0.156900 0.156900 0.156900
+Ks 0.900000 0.900000 0.900000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Wrought_Iron_fence_with_brick_1.003
+Ns 50.000007
+Ka 1.000000 1.000000 1.000000
+Kd 0.156900 0.156900 0.156900
+Ks 0.900000 0.900000 0.900000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Wrought_Iron_fence_with_brick_1.004
+Ns 50.000007
+Ka 1.000000 1.000000 1.000000
+Kd 0.156900 0.156900 0.156900
+Ks 0.900000 0.900000 0.900000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Wrought_Iron_fence_with_brick_1.005
+Ns 50.000007
+Ka 1.000000 1.000000 1.000000
+Kd 0.156900 0.156900 0.156900
+Ks 0.900000 0.900000 0.900000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Wrought_Iron_fence_with_brick_1.006
+Ns 50.000007
+Ka 1.000000 1.000000 1.000000
+Kd 0.156900 0.156900 0.156900
+Ks 0.900000 0.900000 0.900000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Wrought_Iron_fence_with_brick_2
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.180000 0.180000 0.180000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_difuse.jpg
+
+newmtl Wrought_Iron_fence_with_brick_2.001
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.180000 0.180000 0.180000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_difuse.jpg
+
+newmtl Wrought_Iron_fence_with_brick_2.002
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.180000 0.180000 0.180000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_difuse.jpg
+
+newmtl Wrought_Iron_fence_with_brick_2.003
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.180000 0.180000 0.180000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_difuse.jpg
+
+newmtl Wrought_Iron_fence_with_brick_2.004
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.180000 0.180000 0.180000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_difuse.jpg
+
+newmtl Wrought_Iron_fence_with_brick_2.005
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.180000 0.180000 0.180000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_difuse.jpg
+
+newmtl Wrought_Iron_fence_with_brick_2.006
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.180000 0.180000 0.180000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_difuse.jpg
+
+newmtl Wrought_Iron_fence_with_brick_3
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.090000 0.090000 0.090000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\stone.jpg
+
+newmtl Wrought_Iron_fence_with_brick_3.001
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.090000 0.090000 0.090000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\stone.jpg
+
+newmtl Wrought_Iron_fence_with_brick_3.002
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.090000 0.090000 0.090000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\stone.jpg
+
+newmtl Wrought_Iron_fence_with_brick_3.003
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.090000 0.090000 0.090000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\stone.jpg
+
+newmtl Wrought_Iron_fence_with_brick_3.004
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.090000 0.090000 0.090000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\stone.jpg
+
+newmtl Wrought_Iron_fence_with_brick_3.005
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.090000 0.090000 0.090000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\stone.jpg
+
+newmtl Wrought_Iron_fence_with_brick_3.006
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.090000 0.090000 0.090000
+Ke 0.0 0.0 0.0
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\31972\\Desktop\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\Wrought_Iron_fence_with_brick_v1_L2.123c3f19bec0-bfb4-4775-8711-04b942ce6fa6\\stone.jpg
+
+newmtl blinn1SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn1SG.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn1SG.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn2SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn2SG.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn2SG.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn3SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.030000 0.030000 0.030000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn3SG.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.030000 0.030000 0.030000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn3SG.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.030000 0.030000 0.030000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn4SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.850000 0.850000 0.850000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn4SG.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.850000 0.850000 0.850000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn4SG.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.850000 0.850000 0.850000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn5SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.010000 0.010000 0.010000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn5SG.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.010000 0.010000 0.010000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn5SG.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.010000 0.010000 0.010000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn6SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn6SG.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl blinn6SG.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl glass
+Ns 179.999996
+Ka 0.500000 0.500000 0.500000
+Kd 0.500000 0.500000 0.500000
+Ks 2.000000 2.000000 2.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl metal
+Ns 179.999996
+Ka 0.500000 0.500000 0.500000
+Kd 0.500000 0.500000 0.500000
+Ks 2.000000 2.000000 2.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl phong7
+Ns 179.999996
+Ka 0.500000 0.500000 0.500000
+Kd 0.500000 0.500000 0.500000
+Ks 2.000000 2.000000 2.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3

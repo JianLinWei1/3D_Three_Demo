@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="js/jquery-2.0.3.min.js" ></script>
+		<script type="text/javascript" src="js/three.js" ></script>
+		<script type="text/javascript" src="js/TrackballControls.js" ></script>
+		<script type="text/javascript" src="js/DDSLoader.js" ></script>
+		<script type="text/javascript" src="js/OBJLoader.js" ></script>
+		<script type="text/javascript" src="js/OBJMTLLoader.js" ></script>	
+		<title></title>
+	</head>
+	<style>
+		body{
+			margin: 0;
+			overflow: hidden;
+		}
+		#percent {
+		    position: absolute;
+		    width: 200px;
+		    height: 20px;
+		    color: red;
+		    text-align: center;
+		    border: 1p;
+		}
+	</style>
+	<body>
+		<div id="percent"></div>
+		<div id="WebGL-output">
+		<canvas id="canvas" style="display: none;"></canvas>
+			
+		</div>
+		<script>
+			$(function(){
+				//直接开启帧数检测
+				//编辑代码处
+				var scene = new THREE.Scene();//场景构建
+				scene.background = new THREE.Color(0x2E3092)
+				var camera = new THREE.PerspectiveCamera(45,window.innerWidth/window.innerHeight,0.1,1000);//相机构建
+				var renderer = new THREE.WebGLRenderer();//渲染器构建
+				renderer.setClearColor(0xEEEEEE);
+				renderer.setSize(window.innerWidth,window.innerHeight);
+				renderer.shadowMapEnabled = true;//激活阴影
+				//构建一个坐标轴
+				
+				//创建控件并绑定在相机上
+				trackballControls = new THREE.TrackballControls(camera);
+				trackballControls.rotateSpeed = 1.0;
+				trackballControls.zoomSpeed = 1.0;
+				trackballControls.panSpeed = 1.0;
+				trackballControls.noZoom=false;
+				trackballControls.noPan=false;
+				trackballControls.staticMoving = true;
+				trackballControls.dynamicDampingFactor = 0.3;
+				
+				//添加材质灯光阴影
+			var  light = new THREE.HemisphereLight( 0xffffff, 0x444444 );
+				light.position.set( 0, 200, 0 );
+				scene.add( light );
+
+				light = new THREE.DirectionalLight( 0xffffff );
+				light.position.set( 0, 200, 100 );
+				light.castShadow = true;
+				light.shadow.camera.top = 180;
+				light.shadow.camera.bottom = - 100;
+				light.shadow.camera.left = - 120;
+				light.shadow.camera.right = 120;
+				scene.add( light );
+				
+				var mesh = new THREE.Mesh( new THREE.PlaneBufferGeometry( 2000, 2000 ), new THREE.MeshPhongMaterial( { color: 0x2E3092, depthWrite: false } ) );
+				mesh.rotation.x = - Math.PI / 2;
+				mesh.receiveShadow = true;
+				scene.add( mesh );
+
+				var grid = new THREE.GridHelper( 2000, 20, 0x000000, 0x000000 );
+				grid.material.opacity = 0.2;
+				grid.material.transparent = true;
+				scene.add( grid );
+				
+				 // model
+			    var onProgress = function(xhr) {
+			        if (xhr.lengthComputable) {
+			            var percentComplete = xhr.loaded / xhr.total * 100;
+			            var percent = document.getElementById("percent");
+			            percent.innerText = Math.round(percentComplete, 2) + '%';
+			        }
+			    };
+			    var onError = function(xhr) {};
+			    var mtlLoader = new THREE.MTLLoader();
+			   
+			    mtlLoader.load('Rv_Building_3.mtl', function(materials) {
+			
+			        materials.preload();
+			
+			        var objLoader = new THREE.OBJLoader();
+			        objLoader.setMaterials(materials);
+			      
+			        objLoader.load('Rv_Building_3.obj', function(object) {
+			
+			           
+			            scene.add(object);
+			
+			        }, onProgress, onError);
+			    });
+				
+				//用canvas生成图片
+                var canvas = document.getElementById('canvas')
+                var ctx = canvas.getContext('2d')
+                canvas.width = 80
+                canvas.height = 100
+           //制作矩形
+                ctx.fillStyle = "rgba(255,165,0,0.8)";
+                ctx.fillRect(0, 0, 50, 60)
+				 //设置文字
+                ctx.fillStyle = "#fff";
+                ctx.font = 'normal 8pt "楷体"'
+                ctx.fillText('模型介绍', 1, 2)
+                var textWord = '该模型由小少小同学制作完成'
+             //文字换行
+             var len = parseInt(textWord.length / 10)
+             for (var i = 0; i < (len + 1); i++) {
+                 var space = 10
+                 if (i === len) {
+                 space = textWord.length - len * 10
+                      }
+                 console.log('len+' + len, 'space+' + space)
+                 var word = textWord.substr(i * 10, space)
+                 ctx.fillText(word, 15, 60*(i+1))
+            }
+			  var url = canvas.toDataURL('image/png');
+			  
+			  //将图片构建到纹理中
+              var geometry1 = new THREE.PlaneGeometry(30, 30)
+              var texture = THREE.ImageUtils.loadTexture(url, null, function (t) {})
+ 
+              var material1 = new THREE.MeshBasicMaterial({
+                    map: texture,
+                    side: THREE.DoubleSide,
+                    opacity: 1,
+                    transparent: true,
+                 })
+ 
+              var rect = new THREE.Mesh(geometry1, material1)
+              rect.position.set(20, 10, 10)
+              scene.add(rect)
+				
+				//渲染视图视角
+				camera.position.x = -8;
+				camera.position.y = 20;
+				camera.position.z = 80;
+				camera.lookAt(scene.position)
+				$("#WebGL-output").append(renderer.domElement)
+				renderScene();
+				function renderScene(){
+				
+			  <!--	scene.rotateY(0.001) -->
+					var clock = new THREE.Clock();
+		       		var delta = clock.getDelta();
+		       		trackballControls.update(delta);
+					requestAnimationFrame(renderScene);
+					renderer.render(scene,camera);
+				}
+
+			})
+			
+			
+			
+		</script>
+		
+	</body>
+</html>
